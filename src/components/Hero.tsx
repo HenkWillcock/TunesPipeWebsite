@@ -33,7 +33,7 @@ export function Hero() {
               Download Now
             </Button>
             <Button size="lg" variant="outline" className="border-blue-600 text-blue-500 hover:bg-blue-950">
-              Learn More
+              Donate
             </Button>
           </div>
         </div>
