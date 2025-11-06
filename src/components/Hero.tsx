@@ -34,7 +34,7 @@ export function Hero() {
                 className="bg-blue-600 hover:bg-blue-700 text-white gap-2"
                 asChild
               >
-                <a href={`${process.env.PUBLIC_URL}/tunespipe.apk`} download="tunespipe.apk">
+                <a href={`${process.env.PUBLIC_URL}/TunesPipeWebsite/tunespipe.apk`} download="tunespipe.apk">
                   <Download className="w-5 h-5" />
                   Download Now
                 </a>
