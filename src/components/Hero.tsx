@@ -34,14 +34,14 @@ export function Hero() {
                 className="bg-blue-600 hover:bg-blue-700 text-white gap-2"
                 asChild
               >
-                <a href={`/TunesPipeWebsite/tunespipe.apk`} download="tunespipe.apk">
+                <a href="/TunesPipeWebsite/tunespipe.apk" download="tunespipe.apk">
                   <Download className="w-5 h-5" />
                   Download Now
                 </a>
               </Button>
             </a>
             <Button size="lg" variant="outline" className="border-blue-600 text-blue-500 hover:bg-blue-950">
-              Donate
+              <a href="https://buy.stripe.com/8x25kveNg1C0bWo6ZbcIE00">Donate</a>
             </Button>
           </div>
         </div>
