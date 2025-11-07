@@ -13,7 +13,9 @@ export function Hero() {
         </div>
         <div className="flex items-center gap-4">
           <Button variant="ghost" className="text-gray-300 hover:text-white hover:bg-blue-950">
-            <Github className="w-5 h-5" />
+            <a href="https://github.com/HenkWillcock/TunesPipeWebsite">
+              <Github className="w-5 h-5" />
+            </a>
           </Button>
         </div>
       </nav>
